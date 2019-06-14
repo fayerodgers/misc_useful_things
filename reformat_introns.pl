@@ -3,6 +3,8 @@
 use strict;
 use warnings;
 
+##reformat a BED file from regtools junctions extract into a BED file of introns
+
 open FH, '<', $ARGV[0];
 
 while (<FH>){
